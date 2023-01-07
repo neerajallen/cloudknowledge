@@ -1,4 +1,5 @@
 FROM ubuntu
+RUN apt update
 RUN apt-get install -y apache2 
 RUN apt-get install -y zip
 RUN apt-get install -y unzip
